@@ -37,7 +37,7 @@ On other hand, if there is any dc at amplifier input, you should look on your so
 <br>
 <br>
 Q: Why no voltage/ESD input protection ?<br>
-A: <i>A voltage/ESD can be made by using zener or reverse polarised diodes. The issue with this approach is that any reverse polarised p/n junction (diode etc) will have high parasitic capacitance modulated by voltage. This highly degrade amplifier performance. How to work around this ? Use a good R-2R Volume Controller with constant output impedance.</i><br>
+A: <i>A voltage/ESD can be made by using zener or reverse polarised diodes. The issue with this approach is that any reverse polarised p/n junction (diode etc) will have high parasitic capacitance modulated by voltage and this highly degrade amplifier performance. How to work around this ? Use a good R-2R Volume Controller with constant output impedance.</i><br>
 <br>
 <br>
 Q: Any amplifier need input LPF, otherwise EMI will affect SNR.  Q17 do not have one, therefore it is poorly designed. Why Q17 do not have input LPF?<br>
@@ -53,7 +53,7 @@ A: <i>Best attenuator will be a R-2R one with constant output impedance. If you 
 <br>
 <br>
 Q: Why there is no super diode ?<br>
-A: <i>A super diode is usually made with a BJT, where his Vbe variation with temperatures is used to adjust output stage bias. Unfortunately this is highly nonlinear and will modulate, with Vcb voltage (again reverse polarised p/n junction), output stage bias. While is very efficient, will highly degrade audio performance. I prefer to have plain and simple resistors, with no capacitor decoupling between output mosfet gates.</i><br>
+A: <i>A super diode is usually made with a BJT, where his Vbe variation with temperatures is used to adjust output stage bias. Unfortunately this is highly nonlinear and will modulate, with Vcb voltage (again reverse polarised p/n junction), output stage bias. While this is very efficient, will highly degrade audio performance. I prefer to have plain and simple resistors, with no capacitor decoupling between output mosfet gates.</i><br>
 <br>
 <br>
 Q: What about transitory power ON/OFF ? <br>
@@ -67,31 +67,31 @@ Q: Why no protection zeners on all mosfets ?<br>
 A: <i>Well some need and some do not need.<br>
 Let’s start with ones that do not need and later the ones that may need.<br>
 Q1 and Q4 are part of regulators and Vgs is already limited by 18V zeners.<br>
-Q8 is part of cascade and his Vgs is already limited by positive zener regulator to 18V. You may say it is high, but Q8 source is already lifted above ground by Q7.<br>
+Q8 is part of cascode and his Vgs is already limited by positive zener regulator to 18V. You may say it is high, but Q8 source is already lifted above ground by Q7.<br>
 Q9 and Q11 are part of current mirror. Q9’s Vgs is limited by Q10 + Vbe and Q10 by Q9 Vgs + VR3. This will not exceed 4V.<br>
-Q5 Vgs is also limited by Q9 Vds + VR3. Where Q9 Vds = Q10 Vgs. Therefore mirror with Q9&Q10 act as Vgs limiter for Q5.<br>
+Q5 Vgs is also limited by Q9 Vds + VR3. Where Q9 Vds = Q10 Vgs. Therefore, mirror with Q9&Q10 act as Vgs limiter for Q5.<br>
 Q6 may need a zener to limit his Vgs due during a transitory turn on his Vgs may be higher, but for a soft turn on there are Q13&Q14.<br>
 Q13&Q14 obviously need Vgs limiters because at power on, while C13&C14 are charging, Vgs will be above 45V. For such reason there are zener D4&D5, limiting Vgs to a value that keep Q13&Q14 on safe side.<br>
-Q15&Q16&Q17&Q18 there are output transistors that may need protection zener. These are high transconductance mosfets that indeed will deliver very high transitory currents. Here the man advantage is that we are running these in class B with very low bias current. Turn on/off transitory is also softened by Q13&Q14 trough class A stage made with Q5&Q6.<br>
-On other hand, I prefer to run output stage without protection zener due any zener internal parasitic capacitance is modulated with voltage. Any reverse biased diode act like a varicap. This is translated in muddy highs.</i><br>
+Q15&Q16&Q17&Q18 are output transistors that may need protection zener. These are high transconductance mosfets that indeed will deliver very high transitory currents. Here the man advantage is that we are running these in class B with very low bias current. Turn on/off transitory is also softened by Q13&Q14 trough class A stage made with Q5&Q6.<br>
+On other hand, I prefer to run output stage without protection zener, due any zener internal parasitic capacitance is modulated with voltage. Any reverse biased diode act like a varicap. This is translated in muddy highs.</i><br>
 <br>
 <br>
 Q: Why no output inductor ?<br>
 A: <i>This is a highly debatable question.<br>
-Engineers , I’m an engineer too, like to “play safe”, but I’m a nerd audiophile. I like good sound and I thrust my ears even more than “playing safe”.<br>
+Engineers , I’m an engineer too, like to “play safe”, but I’m also a nerd audiophile. I like good sound more than “playing safe”.<br>
 However, your speaker cables have already an important inductance and parasitic capacitance that must considered. <br>
-In some particular cases adding an output inductor may be needed, but these are in very very … few particular cases.<br>
+In some particular cases adding an output inductor may be needed, but these are very … few particular ones.<br>
 To be short, Q17 with no coil sound better.</i><br>
 <br>
 <br>
 Q: May I use Lateral MOSFET's in ouput stage ?<br>
 A: <i>No, you do not, the PCB was designed for Vertical MOSFET. Lateral mosfet transistor's have different piout than Vertical MOSFET.<br>
-  Therefore, PCB need to be redesigned to accomodate Lateral's, for both Class A and output Class B stage.
-  Laterals have lover Vgsth than Verticals, therefore for laterals, R11 and R12 must be between 9.1 and 10 ohm.</i><br>
+  PCB need to be redesigned to accomodate Lateral's, for both Class A and output Class B stage.
+  Laterals have lower Vgsth than Verticals, hence for laterals, R11 and R12 must be between 9.1 and 10 ohm.</i><br>
 <br>
 <br>
 Q: Why you improved 405 and not 909 ?<br>
-A: <i>QUAD405 was a revolutionary amplifier. This not happen very often. It had his flaws, but these where merely due the parts available at the time.  LM301 was one of the biggest issues.<br>
+A: <i>QUAD405 was a revolutionary amplifier. This not happen very often. It had his flaws, but these where merely due the parts available at the time.<br>
 Using my topology 909 can be also improved as well. Maybe, some day …</i><br>
 <br>
 <br>
@@ -106,7 +106,7 @@ A: <i>This is related to your power transformer. A huge capacitance must be char
 <br>
 <br>
 Q: Is there any sound difference between a normal bridge and your Saligny synchronous rectifiers ?<br>
-A: <i>Yes, it is and sonic improvement is very important. You may compare yourself.</i>
+A: <i>Yes, it is and sonic improvement is very important.</i>
 <br>
 <br>
 Q: It is Q17 quiet ?<br>
