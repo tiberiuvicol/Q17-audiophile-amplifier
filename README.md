@@ -19,7 +19,8 @@ Use KiCad 6 or later to open and edit source files.  KiCad 6 can be downloaded f
 <b>GerberQ17_2f.zip</b> - production gerber files for Q17 with dual output pair stage<br>
 Important ! - Amplifier is more stable with R32=0ohm
 
-![image](https://user-images.githubusercontent.com/22703498/159252259-ddfc39c3-7433-49f7-a285-d0a09331d218.png)
+![image](https://user-images.githubusercontent.com/22703498/204741124-c71b839e-7155-4760-a948-c88b66c404e3.png)
+
 <br>
 <br>
 Construction, discussion and support @ https://www.diyaudio.com/forums/solid-state/374507-q17-quad405-audiophile-approach-perfect-sound.html<br>
