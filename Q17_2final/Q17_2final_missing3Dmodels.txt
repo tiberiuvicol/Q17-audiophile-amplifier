@@ -1,4 +1,4 @@
-### Missing 3D models - created on 2022-01-26 22:22
+### Missing 3D models - created on 2022-05-12 16:35
 ### Printed by checking_3D_models plugin
 Board file: /Users/tiberiuvicol/Dropbox/QUASAR/Q17/Q17_2final/Q17_2final.kicad_pcb
 3D missing models written to:
