@@ -135,5 +135,10 @@ Q: Where you you place this amplifier in term of value ?<br>
 A: <i>A well executed Q17 will be better or at least on pair with some $5 digit amplifiers.</i><br>
 <br>
 <br>
+Q: My left channel is warmer, ~5Celsius, than the right channel. How I can match them ?<br>
+A: <i>Is this a really issue ? No.
+Left/Right channel temperature difference is mainly due slightly different "bias" in output stage. Even Q17 is running in class B, each mosfet have different Vgs treshold and this is translated in more or less Ids current. You may start by matching Q12 to have very appropiate Vbe's, than make sure R11, R12, R13 are matching R11, R12, R13 from other channel. Finnaly, match output Q15 .. Q18 mosfets between channels.</i><br>
+<br>
+<br>
 I would love to see your Q17 implementation. :-) <br>
 <br>
