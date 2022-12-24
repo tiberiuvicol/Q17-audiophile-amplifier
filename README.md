@@ -17,6 +17,7 @@ Use KiCad 6 or later to open and edit source files.  KiCad 6 can be downloaded f
 <b>gerber-ps.zip</b> - production gerber for PCB active rectification power supply<br>
 <b>GerberQ17.zip</b> - production gerber for Q17 amplifier<br>
 <b>GerberQ17_2f.zip</b> - production gerber files for Q17 with dual output pair stage<br>
+<b>Q17_dimensions.pdf</b> - PDf file with most important PCB dimensions<br>
 Important ! - Amplifier is more stable with R32=0ohm
 
 ![image](https://user-images.githubusercontent.com/22703498/204741124-c71b839e-7155-4760-a948-c88b66c404e3.png)
