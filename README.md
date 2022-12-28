@@ -118,6 +118,7 @@ A: <i>Yes it is. No fass no buzz, even with high SPL speakers >95dBm.</i><br>
 <br>
 Q: May you recommend a transformer ?<br>
 A: <i>Any well made 300VA transformer, with 2 separate secondaries at min.36Vac - max.42Vac.</i><br>
+<i>More information here -> https://www.diyaudio.com/community/threads/q17-a-quad405-audiophile-approach-to-perfect-sound.374507/post-7031575</i><br>
 <br>
 <br>
 Q: Can Q17 drive ESL speakers ?<br>
