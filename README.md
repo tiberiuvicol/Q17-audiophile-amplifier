@@ -118,7 +118,16 @@ A: <i>Yes it is. No fass no buzz, even with high SPL speakers >95dBm.</i><br>
 <br>
 Q: May you recommend a transformer ?<br>
 A: <i>Any well made 300VA transformer, with 2 separate secondaries at min.36Vac - max.42Vac.</i><br>
-<i>More information here -> https://www.diyaudio.com/community/threads/q17-a-quad405-audiophile-approach-to-perfect-sound.374507/post-7031575</i><br>
+<i>For my projects I order at https://petra-toroid.ro/?lang=en they ship worldwide.</i><br>
+<i>How to order:</i><br>
+<i>- go to https://petra-toroid.ro/contact/?lang=en use form or email</i><br>
+<i>- mention that you want to order one or two 300VA trafo</i><br>
+<i>- primary 115Vac or 230Vac, depending on the mains voltage in your region</i><br>
+<i>- 2 separate 36Vac secondaries</i><br>
+<i>- optional magnetic shielding</i><br>
+<i>- mention that application will be for audio</i><br>
+<i>If your mains are 220-240Vac, you may order a trafo here https://www.audiophonics.fr/en/toroidal-transformers/toroidal-transformer-300va-2x38v-p-5548.html</i><br>
+<i>Anoter source for custom transformers is Toroidy https://sklep.toroidy.pl/en_US/c/Toroidal-transformers-SUPREME-AUDIO-GRADE-V2/99</i><br>
 <br>
 <br>
 Q: Can Q17 drive ESL speakers ?<br>
