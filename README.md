@@ -15,8 +15,8 @@ Use KiCad 6 or later to open and edit source files.  KiCad 6 can be downloaded f
 <b>Q17_2final</b> - Q17 amplifier KiCad source files for dual output stage<br>
 <b>Q17.pdf</b> - detailed presentation - bill of materials included<br>
 <b>gerber-ps.zip</b> - production gerber for PCB active rectification power supply<br>
-<b>GerberQ17.zip</b> - production gerber for Q17 amplifier<br>
-<b>GerberQ17_2f.zip</b> - production gerber files for Q17 with dual output pair stage<br>
+<b>Q17-Gerber.zip</b> - production gerber for Q17 amplifier with single output pair<br>
+<b>Q17-gerber-2pair.zip</b> - production gerber files for Q17 with dual output pair stage<br>
 <b>Q17_dimensions.pdf</b> - PDf file with most important PCB dimensions<br>
 Important ! - Amplifier is more stable with R32=0ohm
 
