@@ -131,7 +131,7 @@ A: <i>Any well made 300VA transformer, with 2 separate secondaries at min.36Vac 
 <br>
 <br>
 Q: Can Q17 drive ESL speakers ?<br>
-A: <i>Yes, will drive ESL speakers very well. Thanks to high transconductance mosfet’s will offer excellent performance.</i><br>
+A: <i>Yes, will drive ESL speakers very well. Thanks to high transconductance mosfet’s, Q17 will offer excellent performance on ESl speakers.</i><br>
 <br>
 <br>
 Q: What make Q17 special ?<br>
