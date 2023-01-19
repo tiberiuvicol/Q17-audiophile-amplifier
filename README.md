@@ -23,9 +23,6 @@ Important ! - Amplifier is more stable with R32=0ohm
 ![image](https://user-images.githubusercontent.com/22703498/204741124-c71b839e-7155-4760-a948-c88b66c404e3.png)
 
 <br>
-<br>
-Construction, discussion and support @ https://www.diyaudio.com/forums/solid-state/374507-q17-quad405-audiophile-approach-perfect-sound.html<br>
-<br>
 Click & Order your Q17 with dual output pair PCB @ <a href="https://www.pcbway.com/project/shareproject/Q17__a_QUAD405_audiophile_approach.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a><br>
 Purchase parts (for one channel) with one click from mouser ->> https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=1f37a45393 <br>
 For STEREO or MULTICHANNEL order same parts as needed. <br>
