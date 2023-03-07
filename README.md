@@ -149,5 +149,5 @@ Left/Right channel temperature difference is mainly due slightly different "bias
 <br>
 <br>
 Thank you for reading ! <br>
-If you had built this amplifier I would love to see your Q17 implementation. :-) <br>
+If you have built this amplifier I would love to see your Q17 implementation. :-) <br>
 <br>
