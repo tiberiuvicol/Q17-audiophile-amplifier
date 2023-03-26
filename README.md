@@ -90,11 +90,6 @@ A: <i>No, you do not, the PCB was designed for Vertical MOSFET. Lateral mosfet t
   Laterals have lower Vgsth than Verticals, hence for laterals, R11 and R12 must be between 9.1 and 10 ohm.</i><br>
 <br>
 <br>
-Q: Why you improved 405 and not 909 ?<br>
-A: <i>QUAD405 was a revolutionary amplifier. This not happen very often. It had his flaws, but these where merely due the parts available at the time.<br>
-Using my topology 909 can be also improved as well. Maybe, some day …</i><br>
-<br>
-<br>
 Q: Why no embedded protection in your schematic ?<br>
 A: <i>This again due sound quality. There is always a trade between playing safe and having best sound.<br>
 I like to have best sound even I do not play safe and currently market offer a wide range of speaker protection modules.<br>
