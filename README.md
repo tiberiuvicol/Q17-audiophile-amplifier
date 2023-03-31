@@ -146,3 +146,6 @@ Left/Right channel temperature difference is mainly due slightly different "bias
 Thank you for reading ! <br>
 If you have built this amplifier I would love to see your Q17 implementation. :-) <br>
 <br>
+Many thanks to those who built Q17 and shared their experience. Here is the builders feedback:<br>
+https://www.diyaudio.com/community/threads/q17-a-quad-405-audiophile-approach-to-perfect-sound.374507/page-72#post-7179645
+<br>
