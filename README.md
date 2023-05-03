@@ -1,4 +1,4 @@
-# Q17-audiophile-amplifier
+# Q17-an amplifier that deliver music at highest possible level
 
 
 ![Q17](https://user-images.githubusercontent.com/22703498/168981362-8983cd89-4096-4918-838b-a98bf1d8269b.jpeg)
