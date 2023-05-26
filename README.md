@@ -28,7 +28,7 @@ Purchase parts (for one channel) with one click from mouser ->> https://www.mous
 For STEREO or MULTICHANNEL order same parts as needed. <br>
 <br>
 <br>
-<b>Q&A collected from diyaudio forum and mail</b><br>
+<b>Q&A collected from mail</b><br>
 <br>
 Q: Why no dc blocking input capacitor?<br>
 A: <i>Q17 first stage make use of an operational that have a C7=1uF capacitor in negative loop. <br>
