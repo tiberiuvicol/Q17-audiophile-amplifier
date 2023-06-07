@@ -100,8 +100,8 @@ Q: How much capacitance I may put in power supply ?<br>
 A: <i>This is related to your power transformer. A huge capacitance must be charged to be efficient.  For a transformer with 3A in secondary, I would say 20mF per rail is enough.</i><br>
 <br>
 <br>
-Q: Is there any sound difference between a normal bridge and your Saligny synchronous rectifiers ?<br>
-A: <i>Yes, it is and sonic improvement is very important.</i>
+Q: Is there any sound difference between a normal bridge and Saligny synchronous rectifiers ?<br>
+A: <i>Yes, Saligny rectifiers are far superior and bring important sonic improvement.</i>
 <br>
 <br>
 Q: It is Q17 quiet ?<br>
@@ -118,8 +118,9 @@ A: <i>Any well made 300VA transformer, with 2 separate secondaries at min.36Vac 
 <i>- 2 separate 36Vac secondaries</i><br>
 <i>- optional magnetic shielding</i><br>
 <i>- mention that application will be for audio</i><br>
-<i>If your mains are 220-240Vac, you may order a trafo here https://www.audiophonics.fr/en/toroidal-transformers/toroidal-transformer-300va-2x38v-p-5548.html</i><br>
-<i>Anoter source for custom transformers is Toroidy https://sklep.toroidy.pl/en_US/c/Toroidal-transformers-SUPREME-AUDIO-GRADE-V2/99</i><br>
+<i>Other sources are: https://www.audiophonics.fr/en/toroidal-transformers/toroidal-transformer-300va-2x38v-p-5548.html</i><br>
+<i>Toroidy https://sklep.toroidy.pl/en_US/c/Toroidal-transformers-SUPREME-AUDIO-GRADE-V2/99</i><br>
+<i>Trafco http://www.trafco.rs/torusni-en.php</i><br>
 <br>
 <br>
 Q: Can Q17 drive ESL speakers ?<br>
@@ -134,13 +135,13 @@ Q: Is Q17 power eficient ?<br>
 A: <i>Yes, it is. Thanks to class B operation and Saligny synchronous rectification, Q17 is a modern amplifier with low power consumption.</i><br>
 <br>
 <br>
-Q: Where you you place this amplifier in term of value ?<br>
-A: <i>A well executed Q17 will be better or at least on pair with some $5 digit amplifiers.</i><br>
-<br>
-<br>
 Q: My left channel is warmer, ~5Celsius, than the right channel. How I can match them ?<br>
 A: <i>Is this a really issue ? No.
 Left/Right channel temperature difference is mainly due slightly different "bias" in output stage. Even Q17 is running in class B, each mosfet have different Vgs treshold and this is translated in more or less Ids current. You may start by matching Q12 to have very appropiate Vbe's, than make sure R11, R12, R13 are matching R11, R12, R13 from other channel. Finnaly, match output Q15 .. Q18 mosfets between channels.</i><br>
+<br>
+<br>
+Q: Where you you place this amplifier in term of value ?<br>
+A: <i>A well executed Q17 will be better or at least on pair with some $5 digit amplifiers.</i><br>
 <br>
 <br>
 Thank you for reading ! <br>
