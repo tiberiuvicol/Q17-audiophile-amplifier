@@ -140,6 +140,10 @@ A: <i>Is this a really issue ? No.
 Left/Right channel temperature difference is mainly due slightly different "bias" in output stage. Even Q17 is running in class B, each mosfet have different Vgs treshold and this is translated in more or less Ids current. You may start by matching Q12 to have very appropiate Vbe's, than make sure R11, R12, R13 are matching R11, R12, R13 from other channel. Finnaly, match output Q15 .. Q18 mosfets between channels.</i><br>
 <br>
 <br>
+Q: Voltage over R3 should be around 0.6Vdc, but mine is way off, how I can adjust this ?<br>
+A: <i>In order to have 0.6Vdc over R3, Q9 and Q11 must be matched (same Vgth), only then voltage over R3 is given only by Q10Vbe. Therefore please match Q9 and Q11 to have same Vgsth=Voltage gate to source threshold. </i><br>
+<br>
+<br>
 Q: Where you you place this amplifier in term of value ?<br>
 A: <i>A well executed Q17 will be better or at least on pair with some $5 digit amplifiers.</i><br>
 <br>
