@@ -1,7 +1,7 @@
 # Q17-an amplifier that deliver music at highest possible level
 
 
-![Q17](https://user-images.githubusercontent.com/22703498/168981362-8983cd89-4096-4918-838b-a98bf1d8269b.jpeg)
+![Q17](https://github.com/tiberiuvicol/Q17-audiophile-amplifier/assets/22703498/90df6174-e5a7-49f1-85b9-d0f9ba2c27a2)
 
 
 
