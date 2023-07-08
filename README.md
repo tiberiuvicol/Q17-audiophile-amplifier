@@ -7,7 +7,7 @@
 
 Q17 is a class B amplifier based on current dumping principle.<br>
 Please refer to <a href="https://github.com/tiberiuvicol/Q17-audiophile-amplifier/blob/main/Project%20description.pdf">Project description.pdf</a> for project description.<br>
-Use KiCad 6 or later to open and edit source files.  KiCad 6 can be downloaded from CERN, https://www.kicad.org<br>
+Use KiCad 6, or later, to open and edit source files.  KiCad 6 can be downloaded from CERN, https://www.kicad.org<br>
 <b>LTSpice</b> - contain simulation asc file<br>
 <b>Q17.7z</b> - <a href="https://forum.kicad.info/t/simulation-examples-for-kicad-eeschema-ngspice/34443">ngspice simulation</a> files for Q17. This will run directly in KiCad. Thank you, Holger Vogt !<br>
 <b>KiCad source PS</b> - active rectification power supply KiCad source files<br>
@@ -25,15 +25,15 @@ Important ! - Amplifier is more stable with R32=0ohm
 <br>
 Click & Order your Q17 with dual output pair PCB @ <a href="https://www.pcbway.com/project/shareproject/Q17__a_QUAD405_audiophile_approach.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a><br>
 Purchase parts (for one channel) with one click from mouser ->> https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=1f37a45393 <br>
-For STEREO or MULTICHANNEL order same parts as needed. <br>
+For STEREO or MULTICHANNEL multiply the order with the same parts. <br>
 <br>
 <br>
 <b>Q&A collected from mail</b><br>
 <br>
 Q: Why no dc blocking input capacitor?<br>
-A: <i>Q17 first stage make use of an operational that have a C7=1uF capacitor in negative loop. <br>
+A: <i>Please consider that Q17 first stage make use of an operational that have a C7=1uF capacitor in negative loop. <br>
 This already make a dc block and we have a non polar capacitor C2&C22 in dc servo as well.<br>
-On other hand, if there is any dc at amplifier input, you should look on your source and eliminate it. Do not try to “solve” previous stage problems by "playing safe" at the amplifier input.</i><br>
+On other hand, if there is any dc at amplifier input, you should look on your audio source and eliminate it. Do not try to “solve” previous stage problems by "playing safe" at the amplifier input.</i><br>
 <br>
 <br>
 Q: Why no voltage/ESD input protection ?<br>
@@ -41,9 +41,9 @@ A: <i>A voltage/ESD can be made by using zener or reverse polarised diodes. The 
 <br>
 <br>
 Q: Any amplifier need input LPF, otherwise EMI will affect SNR.  Q17 do not have one, therefore it is poorly designed. Why Q17 do not have input LPF?<br>
-A: <i>People like to generalise. The world is not black and white.<br>
-An LPF must be designed such way that will not be affected by input impedance. This is not the case with a potentiometer. Does not matter how good this potentiometer is, his attenuation will affect LPF and therefore amplifier bandwidth at low level volume.<br>
-The classic way on how a potentiometer is implemented is that he offer constant input impedance and variable output impedance toward amplifier input. The down side is that, even you go for a high input impedance, at low audio levels input LPF will reach audio band affecting amplifier bandwidth. This is translated in poor audio performance at low audio levels.<br>
+A: <i>Please do not generalise. The world is not black and white.The role of LPF is to block any unwanted frequencies to enter in amplifier. <br>
+A LPF must be designed such way that will not be affected by input impedance. This is not the case with a potentiometer. Does not matter how good this potentiometer is, his attenuation will affect LPF and therefore amplifier bandwidth. This is very audible at low level volume.<br>
+The classic way on how a potentiometer is implemented, is that he offer constant input impedance and variable output impedance toward amplifier input. The down side is that, even you go for a high input impedance, at low audio levels input LPF will reach audio band affecting amplifier bandwidth. This is translated in poor audio performance at low audio levels.<br>
 This issue was addressed in Maya volume controller that make use of an R-2R resistive network allowing constant output impedance with high input variable impedance.<br>
 Beside this, input cable parasitic capacitance together with high amplifier impedance is enough to form a HF-LPF. Output operational LPF at ~125KHz will clean any noise further.</i><br>
 <br>
@@ -53,7 +53,7 @@ A: <i>Best attenuator will be a R-2R one with constant output impedance. If you 
 <br>
 <br>
 Q: Why there is no super diode ?<br>
-A: <i>A super diode is usually made with a BJT, where his Vbe variation with temperatures is used to adjust output stage bias. Unfortunately this is highly nonlinear and will modulate, with Vcb voltage (again reverse polarised p/n junction), output stage bias. While this is very efficient, will highly degrade audio performance. I prefer to have plain and simple resistors, with no capacitor decoupling between output mosfet gates.</i><br>
+A: <i>A super diode is usually made with a BJT, where his Vbe variation with temperatures is used to adjust output stage bias. Unfortunately this is highly nonlinear and will modulate, with Vcb voltage (again reverse polarised p/n junction), output stage bias. While this is very efficient, will highly degrade audio performance. My preference is to have plain and simple resistors, with no capacitor decoupling between output mosfet gates.</i><br>
 <br>
 <br>
 Q: What about transitory power ON/OFF ? <br>
@@ -64,7 +64,7 @@ Second role for Q13&Q14 is to act as super-capacitors, ensuring smooth power sup
 <br>
 <br>
 Q: Why no protection zeners on all mosfets ?<br>
-A: <i>Well some need and some do not need.<br>
+A: <i>Some mosfets need Vgs protection while other do not need.<br>
 Let’s start with ones that do not need and later the ones that may need.<br>
 Q1 and Q4 are part of regulators and Vgs is already limited by 18V zeners.<br>
 Q8 is part of cascode and his Vgs is already limited by positive zener regulator to 18V. You may say it is high, but Q8 source is already lifted above ground by Q7.<br>
@@ -78,7 +78,7 @@ On other hand, I prefer to run output stage without protection zener, due any ze
 <br>
 Q: Why no output inductor ?<br>
 A: <i>This is a highly debatable question.<br>
-Engineers , I’m an engineer too, like to “play safe”, but I’m also a nerd audiophile. I like good sound more than “playing safe”.<br>
+I’m a nerd audiophile. I like good sound more than “playing safe”.<br>
 However, your speaker cables have already an important inductance and parasitic capacitance that must considered. <br>
 In some particular cases adding an output inductor may be needed, but these are very … few particular ones.<br>
 To be short, Q17 with no coil sound better.</i><br>
@@ -145,7 +145,7 @@ A: <i>In order to have 0.6Vdc over R3, Q9 and Q11 must be matched (same Vgth), o
 <br>
 <br>
 Q: Where you you place this amplifier in term of value ?<br>
-A: <i>A well executed Q17 will be better or at least on pair with some $5 digit amplifiers.</i><br>
+A: <i>A well executed Q17, will be better or at least on pair with some $5 digit amplifiers.</i><br>
 <br>
 <br>
 Thank you for reading ! <br>
