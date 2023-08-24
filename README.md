@@ -1,6 +1,6 @@
 # Q17-an audiophile approach to perfect sound
 
-<a href="https://github.com/tiberiuvicol/Q17.3">Q17.3 is latest implementation</a>
+<a href="https://github.com/tiberiuvicol/Q17.3">Q17.3 is the latest implementation</a>
 
 ![Q17](https://github.com/tiberiuvicol/Q17-audiophile-amplifier/assets/22703498/90df6174-e5a7-49f1-85b9-d0f9ba2c27a2)
 
